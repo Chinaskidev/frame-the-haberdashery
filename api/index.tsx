@@ -19,7 +19,7 @@ export const app = new Frog({
 app.frame('/', (c) => {
   const { status } = c
     return c.res({
-    image: "/haber.png",
+    image: "/frame1.png",
     intents: [
       
       <Button action='/start' value="GUESS?">start</Button>,
